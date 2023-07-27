@@ -17,7 +17,7 @@ cd scMAE/
 
 ## Datasets
 
-All datasets used in our paper can be found in 
+All datasets used in our paper can be found in https://zenodo.org/deposit/8175767.
 
 h5 file contains gene expression X and true label Y.
 
