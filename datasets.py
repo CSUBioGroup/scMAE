@@ -1,4 +1,4 @@
-import os
+ import os
 import scanpy as sc
 import h5py
 import scipy as sp
@@ -175,7 +175,6 @@ class scRNADataset(Dataset):
                                normalize_input=True,
                                logtrans_input=True)
         sorted_genes = adata.var_names[np.argsort(adata.var["mean"])]
-        # 提取排序后的基因子集并返回anndata对象
         adata = adata[:, sorted_genes]
         X = adata.X.astype(np.float32)
 
