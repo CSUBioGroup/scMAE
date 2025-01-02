@@ -8,7 +8,7 @@ In scMAE, we randomly shuffle each gene with a certain probability and input the
 
 ## Installation
 
-Clone this repository. The stAA has been implemented in Python3.8.16 and Pytorch 1.13.1.
+Clone this repository. The scMAE has been implemented in Python3.8.16 and Pytorch 1.13.1.
 
 ```
 git clone https://github.com/CSUBioGroup/scMAE.git
